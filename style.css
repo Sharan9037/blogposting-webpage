@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.pageheader {
+    text-align: center;
+    padding: 50px 20px;
+}
+.head {
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.tagline {
+    font-size: 15px;
+    font-weight: normal;
+}
+.unknown {
+    background-color: black;
+    color: white;
+    padding: 3px 7px;
+}
+.blogportion {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.blogportion img {
+    width: 100%;
+    object-fit: cover;
+}
+.blogleft .firstleft, .secondleft{
+    margin-right: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.tittle, .avatartittle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.tittledescription {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 15px;
+
+}
+.details {
+    text-align: justify;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.tittlefooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nopic {
+    padding: 20px;
+}
+.date {
+    color: gray;
+}
+.btn {
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: normal;
+}
+.btn:hover {
+    background-color: rgb(128, 128, 128, 0.6);
+    cursor: pointer;
+}
+.comments {
+    font-size: 15px;
+    font-weight: normal;
+}
+.numberofcomments {
+    background-color: black;
+    color: white;
+    /* border-radius: 50%; */
+    padding: 5px 8px;
+}
+
+.blogright .rightfirst {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* margin-bottom: 20px; */
+}
+
+.secondright {
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.secondpad {
+    /* padding: 20px; */
+    /* margin-left: 20px; */
+}
+.posts {
+    background-color: rgb(128, 128, 128, 0.3);
+    font-size: 24px;
+    font-weight: bold;
+    /* width: 100%; */
+    padding: 20px;
+}
+.secondright img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.postone, .posttwo, .postthree{
+    display: flex;
+    /* justify-content: left; */
+    align-items: center;
+    /* margin-bottom: 20px; */
+    padding: 20px;
+}
+.pone, .ptwo {
+    /* margin-bottom: 20px; */
+}
+.name {
+    font-weight: normal;
+    font-size: 18px;
+}
+.postdescription {
+    font-size: 15px;
+}
+.pone:hover, .ptwo:hover, .postthree:hover {
+    background-color: rgb(128, 128, 128, 0.6);
+}
+.secondleft {
+    margin-top: 20px;
+}
+.tagpart {
+    padding: 20px;
+    /* display: inline-block; */
+    
+}
+
+.travel {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    /* margin-bottom: 50px; */
+}
+.newyork, .london, .ikea, .norway, .diy, .ideas, .baby, .family, .news, .clothing, .shopping, .sports, .games {
+    background-color: rgb(128, 128, 128, 0.3);
+    /* margin-left: 5px; */
+    /* margin: 5px; */
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    margin-bottom: 16px;
+    margin-right: 5px;
+    font-size: 12px;
+}
+.thirdright {
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+footer {
+    margin-top: 50px;
+    padding: 50px 20px;
+    text-align: left;
+    background-color: rgb(97,97,97);
+}
+.previous {
+    border: none;
+    background-color: black;
+    opacity: 0.3;
+    color: white;
+    padding: 10px 20px;
+}
+.next {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    
+}
+.copyright {
+    margin-top: 20px;
+    font-size: 12px;
+
+}
+.previous:hover {
+    background-color: rgb(168, 165, 165);
+    color: black;
+    cursor: not-allowed;
+}
+.next:hover {
+    background-color: rgb(204,204,204);
+    color: black;
+    cursor: pointer;
+}
